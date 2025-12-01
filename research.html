@@ -3,97 +3,160 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Research — A. Vijaya Lakshmi</title>
+  <title>Research — Dr. Vijaya Lakshmi A</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
+
 <body>
-  <!-- header same as others -->
-  <header class="nav-wrap">
-    <div class="nav container">
-      <a class="brand" href="index.html">
-        <img src="profile.jpg" alt="logo" class="logo-img">
-        <div class="brand-text">
-          <span class="name">A. Vijaya Lakshmi</span>
-          <small class="title">Research</small>
-        </div>
-      </a>
 
-      <button class="nav-toggle" aria-label="toggle menu">
-        <span></span><span></span><span></span>
-      </button>
+<!-- NAVIGATION -->
+<header class="nav-wrap">
+  <div class="nav container">
 
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a class="active" href="research.html">Research</a>
-        <a href="projects.html">Projects</a>
-        <a href="publications.html">Publications</a>
-        <a href="achievements.html">Achievements</a>
-        <a href="experience.html">Experience</a>
-        <a href="contact.html">Contact</a>
-        <div class="toggle-row">
-          <label class="switch">
-            <input id="theme-toggle-3" type="checkbox">
-            <span class="slider"></span>
-          </label>
-          <small class="toggle-label">Dark</small>
-        </div>
-      </nav>
+    <a class="brand" href="index.html">
+      <img src="profile.jpg" alt="Logo" class="logo-img">
+      <div class="brand-text">
+        <span class="name">Dr. Vijaya Lakshmi A</span>
+        <small class="title">Research</small>
+      </div>
+    </a>
+
+    <button class="nav-toggle" aria-label="toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a class="active" href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+
+      <div class="toggle-row">
+        <label class="switch">
+          <input id="theme-toggle-3" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <small class="toggle-label">Dark</small>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- PAGE CONTENT -->
+<main>
+  <section class="section container animate">
+
+    <h1>Research Areas</h1>
+    <p class="lead">
+      My research focuses on addressing real-world computational challenges  
+      using intelligent optimization, deep learning, and safety-driven modelling.  
+      I work extensively on meta-heuristic algorithm design,  
+      intelligent routing systems, and advanced medical image analysis.
+    </p>
+
+    <div class="grid grid-2">
+
+      <article class="card animate">
+        <h3>Meta-heuristic Optimization</h3>
+        <p>
+          Developed the **Slender Loris Optimization Algorithm (SLOA)** —  
+          a novel nature-inspired meta-heuristic for global optimization.  
+          Applied in transportation routing, load balancing,  
+          and safety-aware decision-making frameworks.
+        </p>
+      </article>
+
+      <article class="card animate">
+        <h3>Intelligent Transportation Systems (ITS)</h3>
+        <p>
+          Designed safety-aware navigation frameworks using  
+          POI-driven routing, LSTM-Attention models for  
+          dynamic safety scoring, and optimized route planning  
+          for urban travelers, including emergency response systems.
+        </p>
+      </article>
+
+      <article class="card animate">
+        <h3>Medical Image Processing</h3>
+        <p>
+          Research on multimodal MRI/DTI segmentation,  
+          tumour delineation, and deep learning fusion  
+          using transformer-based architectures for improved diagnostics.
+        </p>
+      </article>
+
+      <article class="card animate">
+        <h3>Cloud Security & Data Integrity</h3>
+        <p>
+          Worked on secure deduplication techniques,  
+          client-side encrypted data models,  
+          and optimization-based security frameworks  
+          for distributed cloud systems.
+        </p>
+      </article>
+
     </div>
-  </header>
 
-  <main>
-    <section class="section container animate">
-      <h1>Research Areas</h1>
-      <p class="lead">I focus on optimization and safety for transportation, novel meta-heuristics and applications in medical imaging.</p>
 
-      <div class="grid grid-2">
-        <article class="card animate">
-          <h3>Meta-heuristic Algorithms</h3>
-          <p>Development of Slender Loris Optimization Algorithm (SLOA) and application of nature-inspired algorithms for routing and load balancing.</p>
-        </article>
+    <h2>Ongoing Projects</h2>
+    <ul>
+      <li>
+        <strong>WOMEN_SLOA:</strong>  
+        A next-generation safety navigation system for women traveling at night.  
+        Integrates POI-based routing, deep-learning safety scores,  
+        and SLOA-based route optimization.
+      </li>
 
-        <article class="card animate">
-          <h3>Intelligent Transportation Systems (ITS)</h3>
-          <p>POI-based safe route navigation, dynamic safety scoring with LSTM+Attention, ambulance routing optimization.</p>
-        </article>
+      <li>
+        <strong>Multimodal Medical Image Segmentation:</strong>  
+        Development of transformer-based deep learning pipelines  
+        for tumour detection and radiological analysis.
+      </li>
 
-        <article class="card animate">
-          <h3>Medical Image Processing</h3>
-          <p>Segmentation frameworks combining multimodal MRI, DTI and fMRI for tumor delineation and clinical decision support.</p>
-        </article>
+      <li>
+        <strong>Meta-heuristic Benchmarking:</strong>  
+        Comparative performance evaluation of GTBO, SLOA, PSO,  
+        Firefly, and other optimization algorithms.
+      </li>
+    </ul>
 
-        <article class="card animate">
-          <h3>Security & Cloud</h3>
-          <p>Data integrity, client-side deduplication, secure schemes for cloud storage.</p>
-        </article>
-      </div>
+  </section>
+</main>
 
-      <h2>Ongoing Projects</h2>
-      <ul>
-        <li>WOMEN_SLOA: Safety-aware navigation system for night-time travelers using SLOA + LSTM attention for safety scoring.</li>
-        <li>Multimodal segmentation pipeline for tumour delineation using transformer-enhanced backbones.</li>
-      </ul>
-    </section>
-  </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-left">
-        <img src="profile.jpg" alt="logo" class="logo-img small">
-        <div>
-          <strong>A. Vijaya Lakshmi</strong>
-          <div class="muted">Ph.D Scholar | Assistant Professor</div>
-        </div>
-      </div>
-      <div class="footer-right">
-        <div>📧 avglaksh@gmail.com</div>
-        <div>📞 9788572196</div>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-left">
+      <img src="profile.jpg" alt="logo" class="logo-img small">
+      <div>
+        <strong>Dr. Vijaya Lakshmi A</strong>
+        <div class="muted">Assistant Professor, SSN College of Engineering</div>
       </div>
     </div>
-    <div class="copyright">© <span id="year3"></span> A. Vijaya Lakshmi</div>
-  </footer>
+
+    <div class="footer-right">
+      <div>📧 avglaksh@gmail.com</div>
+      <div>📞 +91 97885 72196</div>
+      <div>📍 Chennai, India</div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © <span id="year3"></span> Dr. Vijaya Lakshmi A — All Rights Reserved
+  </div>
+</footer>
+
 </body>
 </html>
