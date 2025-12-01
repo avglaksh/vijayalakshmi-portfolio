@@ -3,184 +3,186 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Dr. A. Vijaya Lakshmi — Portfolio</title>
+  <title>Dr. Vijaya Lakshmi A — Portfolio</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
+
 <body>
-  <header class="nav-wrap">
-    <div class="nav container">
-      <a class="brand" href="index.html">
-        <img src="profile.jpg" alt="logo" class="logo-img">
-        <div class="brand-text">
-          <span class="name">A. Vijaya Lakshmi</span>
-          <small class="title">Assistant Professor • Researcher</small>
-        </div>
-      </a>
 
-      <button class="nav-toggle" aria-label="toggle menu">
-        <span></span><span></span><span></span>
-      </button>
+<!-- ============================
+     NAVIGATION BAR
+============================= -->
+<header class="nav-wrap">
+  <div class="nav container">
+    
+    <a class="brand" href="index.html">
+      <img src="profile.jpg" alt="Logo" class="logo-img">
+      <div class="brand-text">
+        <span class="name">Dr. Vijaya Lakshmi A</span>
+        <small class="title">Assistant Professor, SSN College of Engineering</small>
+      </div>
+    </a>
 
-      <nav class="nav-links">
-        <a href="index.html" class="active">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a href="projects.html">Projects</a>
-        <a href="publications.html">Publications</a>
-        <a href="achievements.html">Achievements</a>
-        <a href="experience.html">Experience</a>
-        <a href="contact.html">Contact</a>
-        <div class="toggle-row">
-          <label class="switch" title="Toggle dark mode">
-            <input id="theme-toggle" type="checkbox">
-            <span class="slider"></span>
-          </label>
-          <small class="toggle-label">Dark</small>
-        </div>
-      </nav>
+    <button class="nav-toggle" aria-label="toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+
+      <div class="toggle-row">
+        <label class="switch">
+          <input id="theme-toggle" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <small class="toggle-label">Dark</small>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- ============================
+     HERO SECTION
+============================= -->
+<section class="hero container animate">
+  
+  <div class="hero-left">
+    <h1>Hello, I’m <span>Dr. Vijaya Lakshmi A</span></h1>
+    <p class="lead">
+      Assistant Professor at SSN College of Engineering, Chennai.  
+      Researcher in Meta-heuristic Optimization, Intelligent Transportation Systems,  
+      Medical Image Processing, Machine Learning, and Cloud Security.  
+      UGC-NET Qualified (Dec 2023) • 15+ years of Teaching & Research Experience.
+    </p>
+
+    <div class="badges">
+      <span class="badge">Meta-heuristics</span>
+      <span class="badge">Safety Navigation</span>
+      <span class="badge">Machine Learning</span>
+      <span class="badge">Medical Imaging</span>
     </div>
-  </header>
 
-  <main>
-    <!-- HERO -->
-    <section class="hero container animate" id="hero">
-      <div class="hero-left">
-        <h1>Hello — I’m <span>A. Vijaya Lakshmi</span></h1>
-        <p class="lead">Ph.D. scholar in Computer Science & Engineering • Researcher in Meta-heuristic Optimization, Intelligent Transportation, and Medical Image Processing. NET qualified, 15+ years teaching & research experience.</p>
+    <div class="hero-ctas">
+      <a class="btn primary" href="research.html">My Research</a>
+      <a class="btn outline" href="contact.html">Contact Me</a>
+      <a class="btn ghost" href="Vijaya_Lakshmi_CV.pdf" download>Download CV</a>
+    </div>
 
-        <div class="badges">
-          <span class="badge">Meta-heuristics</span>
-          <span class="badge">ITS</span>
-          <span class="badge">Medical Imaging</span>
-          <span class="badge">Machine Learning</span>
-        </div>
-
-        <div class="hero-ctas">
-          <a class="btn primary" href="research.html">My Research</a>
-          <a class="btn outline" href="contact.html">Get in touch</a>
-          <a class="btn ghost" href="Vijaya Lakshmi.docx" download>Download CV</a>
-        </div>
-
-        <div class="highlights">
-          <div>
-            <strong>2</strong>
-            <small>SCI-E Journals (2024)</small>
-          </div>
-          <div>
-            <strong>15+</strong>
-            <small>Years Teaching</small>
-          </div>
-          <div>
-            <strong>NET</strong>
-            <small>Qualified (2023)</small>
-          </div>
-        </div>
+    <div class="highlights">
+      <div>
+        <strong>2</strong>
+        <small>SCI-E Publications (2024)</small>
       </div>
-
-      <div class="hero-right">
-        <div class="photo-card">
-          <img src="profile.jpg" alt="Vijaya Lakshmi" class="profile-large">
-          <div class="photo-overlay">
-            <p>Ph.D. Scholar • Pondicherry University</p>
-            <a href="about.html" class="link">About me →</a>
-          </div>
-        </div>
-
-        <div class="mini-cards">
-          <div class="mini animate">
-            <h4>Research Focus</h4>
-            <p>Route optimization, safety-aware navigation, slender-loris optimization, LSTM+Attention for safety scoring.</p>
-          </div>
-          <div class="mini animate">
-            <h4>Teaching</h4>
-            <p>Data Structures, Algorithms, AI, OOP, Operating Systems, Software Engineering.</p>
-          </div>
-        </div>
+      <div>
+        <strong>15+</strong>
+        <small>Years Experience</small>
       </div>
-    </section>
-
-    <!-- RESEARCH SNAPSHOT -->
-    <section class="section container animate" id="work">
-      <h2 class="section-title">Research Snapshot</h2>
-      <p class="section-sub">Selected highlights from recent work, methods and ongoing projects.</p>
-
-      <div class="grid grid-3">
-        <article class="card animate">
-          <h3>Safest Route Prediction</h3>
-          <p>Improved Golden Tortoise Beetle Optimizer for route discovery and safety aware navigation (SCI-E 2024).</p>
-          <a class="card-link" href="publications.html">Read publications →</a>
-        </article>
-
-        <article class="card animate">
-          <h3>Slender Loris Optimization (SLOA)</h3>
-          <p>Novel meta-heuristic proposed for solving constrained optimization tasks — applied to route optimization and load balancing.</p>
-          <a class="card-link" href="research.html">Learn more →</a>
-        </article>
-
-        <article class="card animate">
-          <h3>Medical Image Processing</h3>
-          <p>Applications of segmentation and multimodal fusion for tumour delineation and clinical decision support.</p>
-          <a class="card-link" href="projects.html">Projects →</a>
-        </article>
-      </div>
-    </section>
-
-    <!-- SELECTED PUBLICATIONS PREVIEW -->
-    <section class="section container animate">
-      <h2 class="section-title">Selected Publications</h2>
-      <div class="pub-list">
-        <div class="pub animate">
-          <h4>Efficient safest route prediction using improved golden tortoise beetle optimizer</h4>
-          <p><small>Journal of Experimental & Theoretical Artificial Intelligence, 2024 (SCI-E)</small></p>
-        </div>
-        <div class="pub animate">
-          <h4>Slender loris optimization algorithm for solving optimization problems</h4>
-          <p><small>Journal of Intelligent & Fuzzy Systems, 2024 (SCI-E)</small></p>
-        </div>
-      </div>
-      <a class="btn outline" href="publications.html">All publications</a>
-    </section>
-
-    <!-- SKILLS & TOOLS -->
-    <section class="section container animate">
-      <h2 class="section-title">Skills & Tools</h2>
-      <div class="skills-grid">
-        <div class="skill">C / C++</div>
-        <div class="skill">Python</div>
-        <div class="skill">Meta-heuristics</div>
-        <div class="skill">Machine Learning</div>
-        <div class="skill">Optimization</div>
-        <div class="skill">MATLAB & Jupyter</div>
-      </div>
-    </section>
-
-    <!-- CTA -->
-    <section class="section container cta animate">
-      <h2>Interested in collaboration or talks?</h2>
-      <p>I'm open to research collaborations, guest lectures and PhD supervision.</p>
-      <a class="btn primary" href="contact.html">Contact Me</a>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-left">
-        <img src="profile.jpg" alt="logo" class="logo-img small">
-        <div>
-          <strong>A. Vijaya Lakshmi</strong>
-          <div class="muted">Ph.D Scholar | Assistant Professor</div>
-        </div>
-      </div>
-      <div class="footer-right">
-        <div>📧 avglaksh@gmail.com</div>
-        <div>📞 9788572196</div>
-        <div>Villupuram, Tamil Nadu, India</div>
+      <div>
+        <strong>NET '23</strong>
+        <small>UGC-NET Qualified</small>
       </div>
     </div>
-    <div class="copyright">© <span id="year"></span> A. Vijaya Lakshmi — All Rights Reserved</div>
-  </footer>
+  </div>
+
+  <div class="hero-right">
+    <div class="photo-card">
+      <img src="profile.jpg" alt="Profile" class="profile-large">
+      <div class="photo-overlay">
+        <p>Assistant Professor • SSN College of Engineering</p>
+        <a href="about.html" class="link">Know more →</a>
+      </div>
+    </div>
+
+    <div class="mini-cards">
+      <div class="mini animate">
+        <h4>Research Focus</h4>
+        <p>
+          Meta-heuristics, SLOA, safety-aware routing,  
+          deep learning for medical imaging,  
+          optimization frameworks.
+        </p>
+      </div>
+
+      <div class="mini animate">
+        <h4>Roles at SSN</h4>
+        <p>
+          NBA Committee Member,  
+          Organising Committee — International Conferences,  
+          Departmental Academic Services.
+        </p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- ============================
+     RESEARCH SNAPSHOT
+============================= -->
+<section class="section container animate">
+  <h2 class="section-title">Research Snapshot</h2>
+
+  <div class="grid grid-3">
+    <article class="card animate">
+      <h3>Safest Route Prediction</h3>
+      <p>Improved Golden Tortoise Beetle Optimizer for safety-aware routing in transportation.</p>
+      <a class="card-link" href="publications.html">View Publications →</a>
+    </article>
+
+    <article class="card animate">
+      <h3>SLOA — New Optimizer</h3>
+      <p>Slender Loris Optimization Algorithm for real-world optimization problems.</p>
+      <a class="card-link" href="research.html">Learn More →</a>
+    </article>
+
+    <article class="card animate">
+      <h3>Medical Image Processing</h3>
+      <p>Transformer-based multimodal segmentation for tumour delineation.</p>
+      <a class="card-link" href="projects.html">View Projects →</a>
+    </article>
+  </div>
+</section>
+
+
+<!-- ============================
+     FOOTER
+============================= -->
+<footer class="site-footer">
+  <div class="container">
+
+    <div class="footer-left">
+      <img src="profile.jpg" alt="logo" class="logo-img small">
+      <div>
+        <strong>Dr. Vijaya Lakshmi A</strong>
+        <div class="muted">Assistant Professor, SSN College of Engineering</div>
+      </div>
+    </div>
+
+    <div class="footer-right">
+      <div>📧 avglaksh@gmail.com</div>
+      <div>📞 +91 97885 72196</div>
+      <div>📍 Chennai, India</div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © <span id="year"></span> Dr. Vijaya Lakshmi A — All Rights Reserved
+  </div>
+
+</footer>
 
 </body>
 </html>
