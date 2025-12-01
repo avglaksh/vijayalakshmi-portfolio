@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contact — A. Vijaya Lakshmi</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="nav-wrap">
+    <div class="nav container">
+      <a class="brand" href="index.html">
+        <img src="profile.jpg" alt="logo" class="logo-img">
+        <div class="brand-text">
+          <span class="name">A. Vijaya Lakshmi</span>
+          <small class="title">Contact</small>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-label="toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="projects.html">Projects</a>
+        <a href="publications.html">Publications</a>
+        <a href="achievements.html">Achievements</a>
+        <a href="experience.html">Experience</a>
+        <a class="active" href="contact.html">Contact</a>
+        <div class="toggle-row">
+          <label class="switch">
+            <input id="theme-toggle-8" type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <small class="toggle-label">Dark</small>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section container animate">
+      <h1>Contact</h1>
+      <p class="lead">I am available for collaborations, supervision and speaking engagements.</p>
+
+      <div class="contact-grid">
+        <div class="contact-card animate">
+          <h3>Email</h3>
+          <a href="mailto:avglaksh@gmail.com">avglaksh@gmail.com</a>
+        </div>
+
+        <div class="contact-card animate">
+          <h3>Phone</h3>
+          <a href="tel:+919788572196">+91 9788572196</a>
+        </div>
+
+        <div class="contact-card animate">
+          <h3>Location</h3>
+          <p>86/26, Subramani Nagar, Ragavanpettai, Villupuram - 605602</p>
+        </div>
+      </div>
+
+      <h2>Message</h2>
+      <form class="contact-form" action="#" onsubmit="alert('Thanks — email send not configured. Use mailto or connect via GitHub.'); return false;">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="6" placeholder="Message" required></textarea>
+        <button class="btn primary" type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-left">
+        <img src="profile.jpg" alt="logo" class="logo-img small">
+        <div>
+          <strong>A. Vijaya Lakshmi</strong>
+          <div class="muted">Ph.D Scholar | Assistant Professor</div>
+        </div>
+      </div>
+      <div class="footer-right">
+        <div>📧 avglaksh@gmail.com</div>
+        <div>📞 9788572196</div>
+      </div>
+    </div>
+    <div class="copyright">© <span id="year8"></span> A. Vijaya Lakshmi</div>
+  </footer>
+</body>
+</html>
