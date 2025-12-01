@@ -3,83 +3,143 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Projects — A. Vijaya Lakshmi</title>
+  <title>Projects — Dr. Vijaya Lakshmi A</title>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script defer src="script.js"></script>
 </head>
+
 <body>
-  <header class="nav-wrap">
-    <div class="nav container">
-      <a class="brand" href="index.html">
-        <img src="profile.jpg" alt="logo" class="logo-img">
-        <div class="brand-text">
-          <span class="name">A. Vijaya Lakshmi</span>
-          <small class="title">Projects</small>
-        </div>
-      </a>
-      <button class="nav-toggle" aria-label="toggle menu">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="nav-links">
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="research.html">Research</a>
-        <a class="active" href="projects.html">Projects</a>
-        <a href="publications.html">Publications</a>
-        <a href="achievements.html">Achievements</a>
-        <a href="experience.html">Experience</a>
-        <a href="contact.html">Contact</a>
-        <div class="toggle-row">
-          <label class="switch">
-            <input id="theme-toggle-4" type="checkbox">
-            <span class="slider"></span>
-          </label>
-          <small class="toggle-label">Dark</small>
-        </div>
-      </nav>
+
+<!-- NAVIGATION -->
+<header class="nav-wrap">
+  <div class="nav container">
+
+    <a class="brand" href="index.html">
+      <img src="profile.jpg" alt="Logo" class="logo-img">
+      <div class="brand-text">
+        <span class="name">Dr. Vijaya Lakshmi A</span>
+        <small class="title">Projects</small>
+      </div>
+    </a>
+
+    <button class="nav-toggle" aria-label="toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="research.html">Research</a>
+      <a class="active" href="projects.html">Projects</a>
+      <a href="publications.html">Publications</a>
+      <a href="achievements.html">Achievements</a>
+      <a href="experience.html">Experience</a>
+      <a href="contact.html">Contact</a>
+
+      <div class="toggle-row">
+        <label class="switch">
+          <input id="theme-toggle-4" type="checkbox">
+          <span class="slider"></span>
+        </label>
+        <small class="toggle-label">Dark</small>
+      </div>
+    </nav>
+
+  </div>
+</header>
+
+
+<!-- PAGE CONTENT -->
+<main>
+  <section class="section container animate">
+
+    <h1>Projects</h1>
+    <p class="lead">
+      A selection of ongoing and completed research projects spanning  
+      optimization algorithms, intelligent routing systems,  
+      and advanced medical image analysis.
+    </p>
+
+    <div class="grid grid-3">
+
+      <!-- Project 1 -->
+      <article class="card animate">
+        <h3>WOMEN_SLOA — Safety Navigation System</h3>
+        <p>
+          A next-generation routing system designed to provide  
+          safest paths for night-time women travelers.  
+          Responsibilities include:
+        </p>
+        <ul>
+          <li>POI-based route analysis</li>
+          <li>LSTM + Attention-based safety scoring</li>
+          <li>SLOA-based optimization for route selection</li>
+          <li>Real-time user feedback integration</li>
+        </ul>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card animate">
+        <h3>Ambulance Routing Optimization</h3>
+        <p>
+          A study on reducing emergency response time using  
+          optimized routing models.  
+          Work includes:
+        </p>
+        <ul>
+          <li>Comparative analysis of meta-heuristics (GTBO, SLOA, PSO)</li>
+          <li>Road network modelling with dynamic traffic</li>
+          <li>Multi-objective time minimization</li>
+        </ul>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card animate">
+        <h3>Multimodal Medical Image Segmentation</h3>
+        <p>
+          Deep-learning pipeline for tumour segmentation using  
+          MRI, DTI, and multimodal fusion.  
+          Includes:
+        </p>
+        <ul>
+          <li>Transformer-based fusion models</li>
+          <li>Data preprocessing & augmentation</li>
+          <li>Cross-attention learning for tumour boundaries</li>
+        </ul>
+      </article>
+
     </div>
-  </header>
 
-  <main>
-    <section class="section container animate">
-      <h1>Projects</h1>
-      <p class="lead">Selected academic & research projects.</p>
+  </section>
+</main>
 
-      <div class="grid grid-3">
-        <div class="card animate">
-          <h3>WOMEN_SLOA — Safety Navigation</h3>
-          <p>POI-based navigation with dynamic safety scoring, LSTM+Attention for risk analysis and SLOA for route optimization.</p>
-        </div>
 
-        <div class="card animate">
-          <h3>Route Optimization for Ambulance</h3>
-          <p>Comparative study of meta-heuristics to minimize response time in urban environments.</p>
-        </div>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container">
 
-        <div class="card animate">
-          <h3>Medical Multi-modal Segmentation</h3>
-          <p>Hybrid deep learning segmentation framework using transformer encoders for tumor delineation.</p>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-left">
-        <img src="profile.jpg" alt="logo" class="logo-img small">
-        <div>
-          <strong>A. Vijaya Lakshmi</strong>
-          <div class="muted">Ph.D Scholar | Assistant Professor</div>
-        </div>
-      </div>
-      <div class="footer-right">
-        <div>📧 avglaksh@gmail.com</div>
-        <div>📞 9788572196</div>
+    <div class="footer-left">
+      <img src="profile.jpg" alt="logo" class="logo-img small">
+      <div>
+        <strong>Dr. Vijaya Lakshmi A</strong>
+        <div class="muted">Assistant Professor, SSN College of Engineering</div>
       </div>
     </div>
-    <div class="copyright">© <span id="year4"></span> A. Vijaya Lakshmi</div>
-  </footer>
+
+    <div class="footer-right">
+      <div>📧 avglaksh@gmail.com</div>
+      <div>📞 +91 97885 72196</div>
+      <div>📍 Chennai, India</div>
+    </div>
+
+  </div>
+
+  <div class="copyright">
+    © <span id="year4"></span> Dr. Vijaya Lakshmi A — All Rights Reserved
+  </div>
+</footer>
+
 </body>
 </html>
